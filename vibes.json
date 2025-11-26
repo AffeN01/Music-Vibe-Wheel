@@ -120,7 +120,9 @@
     "vibe": "Glitchy video games, sugar overload, digital distortion, and pixelated chaos. It feels synthetic and hyper-active.",
     "artists": [
       "Playboi Carti (WLR)",
-      "Trippie Redd"
+      "Trippie Redd",
+      "wubz",
+      "Chief Keef (GloToven)"
     ],
     "palette": [
       "'Chiptune' / Gameboy 8-bit sounds",
@@ -136,6 +138,7 @@
     "artists": [
       "Summrs",
       "Autumn!",
+      "Osamason",
       "Kankan"
     ],
     "palette": [
@@ -471,6 +474,23 @@
       "Smooth G-Funk leads",
       "Jazz samples",
       "Slow, booming drums"
+    ]
+  }
+  {
+    "id": 29,
+    "genre": "Purple Swag / Trillwave / Chopped & Screwed",
+    "vibe": "Sipping syrup, slow motion visuals, deep voices, and psychedelic haze. It feels heavy, intoxicated, and hypnotic.",
+    "artists": [
+      "A$AP Rocky (Live.Love.A$AP)",
+      "Lucki Eck$",
+      "DJ Screw",
+      "SpaceGhostPurrp"
+    ],
+    "palette": [
+      "Pitched-down 'Screwed' vocals",
+      "Slowed sample loops",
+      "Deep, rolling sub-bass",
+      "Psychedelic, hazy synth textures"
     ]
   }
 ]
