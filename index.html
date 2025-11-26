@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hip-Hop Vibe Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎛️ The Vibe Menu</h1>
+
+    <div class="controls-container">
+        <button id="filterBtn" disabled>⚙️ Filter</button>
+        <button id="spinBtn" disabled>Loading...</button>
+    </div>
+
+    <div id="resultCard" class="card">
+        <h2 id="genreTitle" class="genre-title">Genre</h2>
+        <p id="vibeDesc" class="vibe-text">Description...</p>
+
+        <div class="section-header">Reference Artists (Click to Search YouTube)</div>
+        <div id="artistList" class="tags"></div>
+
+        <div class="section-header">Instrument Palette</div>
+        <div id="paletteList" class="tags"></div>
+
+        <div class="discovery-hub">
+            <a id="linkYoutube" href="#" target="_blank" class="action-btn btn-youtube">
+                ▶️ Hear the Vibe (Playlist)
+            </a>
+            <a id="linkSimilar" href="#" target="_blank" class="action-btn btn-musicmap">
+                🕸️ Find Similar Artists
+            </a>
+        </div>
+    </div>
+
+    <div id="filterModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Filter Vibes</h2>
+            </div>
+            <div class="modal-controls">
+                <button onclick="toggleAll(true)">Select All</button>
+                <button onclick="toggleAll(false)">Deselect All</button>
+            </div>
+            <div id="checkboxGrid" class="checkbox-grid">
+                </div>
+            <button class="close-btn" onclick="toggleModal(false)">Apply & Close</button>
+        </div>
+    </div>
+
+    <div class="footer-note">Reads 'vibes.json' • Artists link to YouTube Search</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

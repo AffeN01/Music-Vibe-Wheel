@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "genre": "Boom Bap / Lo-Fi",
+    "vibe": "Dusty vinyl crackle, coffee shop rain, and nostalgic warmth. It feels organic, imperfect, and human.",
+    "artists": [
+      "J. Cole",
+      "Kanye West (College Dropout era)",
+      "Joey Bada$$",
+      "J Dilla"
+    ],
+    "palette": [
+      "Wobbly, drifting electric keys (Rhodes/Wurlitzers)",
+      "Hazy, atmospheric pads that sound like old tape",
+      "Unstable analog synths that detune slightly",
+      "Clean, jazzy guitar chords (Nylon or Jazz Amp)"
+    ]
+  },
+  {
+    "id": 2,
+    "genre": "Afrobeat / Dancehall",
+    "vibe": "Tropical heat, sunset parties, sweat, and infectious rhythm. It feels breezy, bright, and undeniably danceable.",
+    "artists": [
+      "Wizkid",
+      "Burna Boy",
+      "Drake (Views era)"
+    ],
+    "palette": [
+      "Log drums and hollow wood mallets",
+      "Marimbas, Kalimbas, and metallic Steel Drums",
+      "Short, tropical synth plucks",
+      "Breathable flutes and African shakers"
+    ]
+  },
+  {
+    "id": 3,
+    "genre": "Emo Rap / Moon Man Vibes",
+    "vibe": "Humming in the dark, mental health struggles, styrofoam cups, and looking at the stars. It feels numb, isolated, and comforting.",
+    "artists": [
+      "Kid Cudi",
+      "Juice WRLD",
+      "XXXTentacion",
+      "Trippie Redd",
+      "Lil Peep"
+    ],
+    "palette": [
+      "Slow, filtered pads that sound 'underwater'",
+      "Muddy, slow-moving synth textures",
+      "Minor-key, humming melodies",
+      "Clean electric guitars drenched in reverb"
+    ]
+  },
+  {
+    "id": 4,
+    "genre": "Deep-House Rap / \"Runway\" Hip-Hop",
+    "vibe": "Velvet ropes, 4 AM club lights, fashion week, and expensive leather. It feels sophisticated, repetitive, and soulful.",
+    "artists": [
+      "Drake (Honestly, Nevermind)",
+      "Black Coffee",
+      "Kaytranada"
+    ],
+    "palette": [
+      "Korg M1 Organs (that classic house bass)",
+      "Bright 'House Pianos'",
+      "Warm, beachy background pads",
+      "Soulful chord stabs"
+    ]
+  },
+  {
+    "id": 5,
+    "genre": "Future Bass / Melodic Trap / Anthem Rap",
+    "vibe": "Neon festival lights, confetti cannons, and pure sugar-rush euphoria. It feels massive, bright, and triumphant.",
+    "artists": [
+      "Flume",
+      "Lil Uzi Vert (2016 era)"
+    ],
+    "palette": [
+      "Massive 'Super Saw' wobbly chords",
+      "Pitch-bent, soaring synth leads",
+      "Pitched-up vocal chops",
+      "Bouncy, happy square-wave leads"
+    ]
+  },
+  {
+    "id": 6,
+    "genre": "Chicago Drill",
+    "vibe": "Gritty, cinematic danger, urgent sirens, and aggressive energy. It feels chaotic and street-level.",
+    "artists": [
+      "Chief Keef",
+      "King Von",
+      "G Herbo"
+    ],
+    "palette": [
+      "Fast, staccato string sections",
+      "Heavy, war-ready brass hits",
+      "Tubular Bells (The signature 'horror' bell sound)",
+      "Sharp orchestral stabs"
+    ]
+  },
+  {
+    "id": 7,
+    "genre": "NYC / UK Drill",
+    "vibe": "Cold concrete, haunted houses, sliding basslines, and menacing whispers. It feels ghostly and minimalist.",
+    "artists": [
+      "Pop Smoke",
+      "Fivio Foreign",
+      "Sleepy Hallow",
+      "Central Cee"
+    ],
+    "palette": [
+      "Dark, detuned Grand Pianos",
+      "Haunting, warping synths that bend pitch",
+      "Eerie, scary ambient sounds (screams, breath, wind)",
+      "Minor-key melodies that sound evil"
+    ]
+  },
+  {
+    "id": 8,
+    "genre": "Hyperpop / Rage / Glo",
+    "vibe": "Glitchy video games, sugar overload, digital distortion, and pixelated chaos. It feels synthetic and hyper-active.",
+    "artists": [
+      "Playboi Carti (WLR)",
+      "Trippie Redd"
+    ],
+    "palette": [
+      "'Chiptune' / Gameboy 8-bit sounds",
+      "Futuristic laser FX and bright leads",
+      "Growl basses used as leads",
+      "Distorted, aggressive 'buzz' synths"
+    ]
+  },
+  {
+    "id": 9,
+    "genre": "Pluggnb / Hoodtrap",
+    "vibe": "Floating on a cloud, luxury romplers, soft elevators, and dream states. It feels smooth, jazzy, and weightless.",
+    "artists": [
+      "Summrs",
+      "Autumn!",
+      "Kankan"
+    ],
+    "palette": [
+      "Soft sine wave leads and 'whistles'",
+      "Glassy bell pads",
+      "Jazzy electric piano chords",
+      "Old video game console startup sounds (PS2/Xbox style)"
+    ]
+  },
+  {
+    "id": 10,
+    "genre": "Sexy R&B / Trapsoul / Toxic Soul",
+    "vibe": "Dim lights, incense, late-night texts, and heartbreak. It feels intimate, filtered, and smooth.",
+    "artists": [
+      "4batz",
+      "Bryson Tiller",
+      "Summer Walker"
+    ],
+    "palette": [
+      "Lush Neo-Soul chord progressions",
+      "Pitched-down, 'screwed' vocal textures",
+      "Clean Jazz guitars played softly",
+      "Slow, deep pads that sit in the back"
+    ]
+  },
+  {
+    "id": 11,
+    "genre": "Phonk",
+    "vibe": "Distorted VHS tapes, drift cars, gritty Memphis dungeons, and aggression. It feels lo-fi and evil.",
+    "artists": [
+      "Freddie Dredd",
+      "Three 6 Mafia"
+    ],
+    "palette": [
+      "Cowbells (The essential melody lead)",
+      "Horror-core atmospheric pads",
+      "Distorted, grimy textures"
+    ]
+  },
+  {
+    "id": 12,
+    "genre": "Melodic Pop-Rap / Summer Trap",
+    "vibe": "Pool parties, bright sunshine, viral TikTok dances, and polished gloss. It feels like a vacation.",
+    "artists": [
+      "Lil Tecca",
+      "Lil Mosey",
+      "Tyga",
+      "Chris Brown",
+      "Kid Ink",
+      "24kGoldn"
+    ],
+    "palette": [
+      "Steel Drums, Marimbas, and Kalimbas",
+      "Breathable Pan Flutes",
+      "Pitched-up 'Ooh' and 'Ahh' vocal chops",
+      "Short, wooden-sounding plucks"
+    ]
+  },
+  {
+    "id": 13,
+    "genre": "Future Funk / Bounce",
+    "vibe": "Backyard boogies, soul train lines, and off-kilter grooves. It feels funky, loose, and warm.",
+    "artists": [
+      "Kaytranada",
+      "Anderson .Paak",
+      "GoldLink"
+    ],
+    "palette": [
+      "Thick, squelchy analog synth bass (Moog style)",
+      "Funky, winding leads",
+      "Lush 7th and 9th chords",
+      "Glide / Portamento leads (G-Funk influence)"
+    ]
+  },
+  {
+    "id": 14,
+    "genre": "Street Anthems / War Ready",
+    "vibe": "Blockbuster movie villains, epic war zones, triumph, and orchestral aggression. It feels huge, terrifying, and motivating.",
+    "artists": [
+      "Meek Mill",
+      "Pusha T",
+      "Jeezy",
+      "Future (DS2)",
+      "808 Mafia"
+    ],
+    "palette": [
+      "Huge 'Inception' brass horns (Bwaaaah)",
+      "Orchestral stabs and hits",
+      "Ethnic flutes, duduks, and weird violins",
+      "'Kill Bill' alarms and siren FX"
+    ]
+  },
+  {
+    "id": 15,
+    "genre": "West Coast / Bay Area Bounce",
+    "vibe": "Lowriders, palm trees, hydraulics, and unique flows. It feels bouncy, weird, and simple.",
+    "artists": [
+      "SOBxRBE",
+      "Blueface",
+      "Baby Keem",
+      "YG",
+      "DJ Mustard"
+    ],
+    "palette": [
+      "P-Funk Bass (thick and rubbery)",
+      "High-pitched 'Worm' leads (whiny synths)",
+      "Sharp Club Piano stabs",
+      "Korg M1 Organ bass"
+    ]
+  },
+  {
+    "id": 16,
+    "genre": "Emotional Melodic / Pain Trap",
+    "vibe": "Emotional strumming, and heartbreak. It feels organic, tearful, yet hard.",
+    "artists": [
+      "Rod Wave",
+      "Polo G",
+      "Lil Tjay",
+      "Roddy Ricch",
+      "Vory"
+    ],
+    "palette": [
+      "Realistic Nylon (Spanish) Guitars",
+      "Steel String Acoustic Guitars (bright and clean)",
+      "Fast, emotional Piano arpeggios",
+      "Ouds or Sazs for exotic texture"
+    ]
+  },
+  {
+    "id": 17,
+    "genre": "Industrial Rage / Opium",
+    "vibe": "Industrial raves, strobe lights, dystopian mosh pits, and noxious fumes. It feels broken, distorted, and futuristic.",
+    "artists": [
+      "Kanye West (Yeezus era)",
+      "Ken Carson",
+      "Destroy Lonely",
+      "Yeat (2093)"
+    ],
+    "palette": [
+      "Hard buzz-saw leads",
+      "Glitchy 8-bit sounds ran through heavy distortion",
+      "Heavy synth basses (replacing the 808)",
+      "Screechy 'Gabber' and 'Hardstyle' synths",
+      "UFO noises and futuristic risers"
+    ]
+  },
+  {
+    "id": 18,
+    "genre": "Cloud / Drain / Hypnagogic",
+    "vibe": "Fever dreams, ice castles, holy water, and dissociation. It feels glassy, fragile, and heavenly.",
+    "artists": [
+      "Ecco2k",
+      "Bladee",
+      "Lucki"
+    ],
+    "palette": [
+      "Slow, filtered pads that take up massive space",
+      "Glassy, crystalline FX and sparkles",
+      "Icy plucks with heavy reverb",
+      "Wobbly tape-style pads",
+      "Soft, dreamy, sleep-inducing bells"
+    ]
+  },
+  {
+    "id": 19,
+    "genre": "Psychedelic Opera / Grandiose Trap",
+    "vibe": "A gothic stage play on Mars, tribal drums, stadium status, and dark beauty. It feels theatrical, overwhelming, and artistic.",
+    "artists": [
+      "Travis Scott (Rodeo/Utopia)",
+      "Kanye West (808s / MBDTF)",
+      "Don Toliver",
+      "Mike Dean"
+    ],
+    "palette": [
+      "Distorted 'Mike Dean' style Synth Solos (Moog)",
+      "Gothic/Church Choirs",
+      "Massive Reverb on Snare drums",
+      "Distorted Electric Guitars mixed with synths",
+      "Heavy, arpeggiated synths (Stranger Things vibes)"
+    ]
+  },
+  {
+    "id": 20,
+    "genre": "Indie Art-Rap / Acoustic Glitch Opera",
+    "vibe": "A Pixar movie soundtrack glitching out, manic creativity, intimate bedroom recordings exploding into stadiums, and raw human emotion. It feels textural, wide, and overwhelmingly beautiful.",
+    "artists": [
+      "Jon Bellion",
+      "Quadeca",
+      "Mac Miller (Circles)",
+      "Fridayy"
+    ],
+    "palette": [
+      "Felt Pianos: Soft, muffled upright pianos where you can hear the mechanics moving",
+      "Human Percussion: Beatboxing, stomps, and claps layered to sound huge",
+      "Symphonic Strings: Disney-style orchestral swells that transition into glitches",
+      "Vocal Choirs: Massive stacks of harmony (often using just the artist's voice)",
+      "Acoustic Guitars: Strummed hard, sometimes processed with granular or 'static' effects"
+    ]
+  },
+  {
+    "id": 21,
+    "genre": "Y2K Liquid / Dreamcast DnB",
+    "vibe": "Racing through a 2000s video game level, Sonic Adventure OST, Ridge Racer OST, pastel clouds, and nostalgic speed. It feels wistful, soft, but incredibly fast-paced.",
+    "artists": [
+      "PinkPantheress",
+      "Hunnid-P (Knuckles Theme)",
+      "piron",
+      "NewJeans (DnB tracks)"
+    ],
+    "palette": [
+      "Liquid Pads: Lush, warm synthesizer pads that feel like liquid mercury",
+      "Jazzy Rhodes: Fast, improvised electric piano runs",
+      "Saxophone Synths: Mellow, artificial sax leads (that specific MIDI sound)",
+      "Atmospheric Vox: Breathable, soft vocal textures buried in the mix"
+    ]
+  },
+  {
+    "id": 22,
+    "genre": "Sexy Drill / NYC Jerk / Jersey Club",
+    "vibe": "A crowded house party in the Bronx, bed squeaks, triplet kick drums, and 'Slizzy' energy. It feels minimal, bouncy, toxic, and hypnotic.",
+    "artists": [
+      "Ice Spice",
+      "Cash Cobain",
+      "Chow Lee",
+      "Bandmanrill"
+    ],
+    "palette": [
+      "'The Sample': Usually a pitched-up, filtered R&B sample loops",
+      "Club Pianos: Sharp, staccato piano chords hitting on the off-beats",
+      "Bed Squeak / FX: That iconic sample and repetitive vocal chants ('Go, Go')",
+      "Choir Pads: Sometimes used to add a slightly 'Drill' dark texture to the bounce",
+      "Sub Bass: Short, punchy 808s that leave room for the kick drum patterns"
+    ]
+  },
+  {
+    "id": 23,
+    "genre": "Hyphy / Bay Area Bounce",
+    "vibe": "Ghost riding the whip, sideshows, scraping curbs, and wild energy. It feels frantic, fun, and elastic.",
+    "artists": [
+      "E-40",
+      "Iamsu!",
+      "Mac Dre",
+      "Keak da Sneak"
+    ],
+    "palette": [
+      "Slapping 'Mob' Synth Bass",
+      "Snapping Snares",
+      "High-pitched whistles",
+      "Energetic chants ('YEE')"
+    ]
+  },
+  {
+    "id": 24,
+    "genre": "Ratchet Rap / Club Trap",
+    "vibe": "Twerking, unapologetic confidence, cash throwing, and high energy. It feels loud, bossy, and infectious.",
+    "artists": [
+      "Cardi B",
+      "GloRilla",
+      "Megan Thee Stallion",
+      "City Girls"
+    ],
+    "palette": [
+      "Hard, bouncy 808s",
+      "Minimal synth loops",
+      "Mustard-style chants ('Hey!')",
+      "Aggressive vocal delivery"
+    ]
+  },
+  {
+    "id": 25,
+    "genre": "Detroit Rap / Scam Rap",
+    "vibe": "Talking slick, off-beat flows, hustle culture, and relentless punchlines. It feels fast-paced, anxious, and witty.",
+    "artists": [
+      "Big Sean",
+      "BabyTron",
+      "Rio Da Yung OG",
+      "Tee Grizzley"
+    ],
+    "palette": [
+      "Fast, menacing pianos",
+      "Funky/Squiggly synth bass lines",
+      "Punchy kicks",
+      "Minimal hi-hats"
+    ]
+  },
+  {
+    "id": 26,
+    "genre": "Midwest Chopper / Technicians",
+    "vibe": "Machine-gun flows, breathless speed, intricate rhyme schemes, and dark intensity. It feels athletic, dark, and overwhelming.",
+    "artists": [
+      "Tech N9ne",
+      "Twista",
+      "Rittz",
+      "King Iso"
+    ],
+    "palette": [
+      "Cinematic horror strings",
+      "Aggressive choirs",
+      "Opera vocal samples",
+      "Fast-paced hi-hat rolls"
+    ]
+  },
+  {
+    "id": 27,
+    "genre": "Florida Rap / Distorted Soundcloud",
+    "vibe": "Raw aggression, blown-out speakers, humidity, and cartoonish energy. It feels chaotic, loud, and punk-rock.",
+    "artists": [
+      "Ski Mask The Slump God",
+      "Denzel Curry",
+      "Sylvan LaCue",
+      "XXXTentacion (Hard)"
+    ],
+    "palette": [
+      "Heavily distorted 808s",
+      "Lo-fi cartoon samples",
+      "Screaming vocals",
+      "Dark ambient textures"
+    ]
+  },
+  {
+    "id": 28,
+    "genre": "Weed Rap / Stoner Hip-Hop",
+    "vibe": "Cloudy rooms, jet life, smooth jazz samples, and relaxation. It feels hazy, cool, and slow.",
+    "artists": [
+      "Snoop Dogg",
+      "Wiz Khalifa",
+      "Curren$y",
+      "Smoke DZA",
+      "Dizzy Wright"
+    ],
+    "palette": [
+      "Spaced-out pads",
+      "Smooth G-Funk leads",
+      "Jazz samples",
+      "Slow, booming drums"
+    ]
+  }
+]

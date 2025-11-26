@@ -1,0 +1,320 @@
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --accent: #bb86fc;
+    --secondary: #03dac6;
+    --text-main: #e0e0e0;
+    --text-muted: #a0a0a0;
+    --btn-hover: #3700b3;
+    --modal-overlay: rgba(0, 0, 0, 0.85);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 15px;
+}
+
+/* Control Bar */
+.controls-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+}
+
+button#spinBtn {
+    background: linear-gradient(135deg, var(--accent), #7f39fb);
+    box-shadow: 0 0 20px rgba(187, 134, 252, 0.4);
+    padding: 15px 50px;
+}
+
+button#spinBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 30px rgba(187, 134, 252, 0.7);
+}
+
+button#filterBtn {
+    background: #2d2d2d;
+    border: 1px solid #444;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button#filterBtn:hover {
+    background: #3d3d3d;
+    border-color: var(--secondary);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    filter: grayscale(100%);
+}
+
+/* Card Container */
+.card {
+    background-color: var(--card-bg);
+    width: 100%;
+    max-width: 650px;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    display: none;
+    animation: slideUp 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+    border: 1px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 4px;
+    background: linear-gradient(90deg, var(--accent), var(--secondary));
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Typography */
+.genre-title {
+    font-size: 2.4rem;
+    color: white;
+    margin: 0 0 10px 0;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.vibe-text {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    border-left: 4px solid var(--secondary);
+    padding-left: 20px;
+    margin-bottom: 30px;
+    background: rgba(255,255,255,0.03);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 8px 8px 0;
+}
+
+.section-header {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #777;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-header::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #333;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    border: 1px solid #333;
+    background: #252525;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tag.artist { 
+    color: #ffb74d; 
+    border-color: #5d4037; 
+    cursor: pointer;
+}
+.tag.artist:hover {
+    background: #cc0000;
+    border-color: #ff0000;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.tag.instrument { 
+    color: #81c784; 
+    border-color: #2e4c31; 
+    cursor: default;
+}
+
+/* Discovery Hub Buttons */
+.discovery-hub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid #333;
+}
+
+.action-btn {
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-youtube {
+    background-color: #2a2a2a;
+    color: #ff5252;
+    border: 1px solid #ff5252;
+}
+.btn-youtube:hover { background-color: #ff5252; color: white; }
+
+.btn-musicmap {
+    background-color: #2a2a2a;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+.btn-musicmap:hover { background-color: var(--secondary); color: #121212; }
+
+/* MODAL STYLES (Filter) */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: var(--modal-overlay);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: var(--card-bg);
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid #444;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.modal-header h2 { margin: 0; font-size: 1.5rem; color: white; }
+
+.modal-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-controls button {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+    background: #333;
+}
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+/* Custom Checkbox Style */
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    background: #252525;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    user-select: none;
+}
+
+.checkbox-item:hover { background: #333; }
+
+.checkbox-item input {
+    margin-right: 10px;
+    accent-color: var(--secondary);
+    width: 16px;
+    height: 16px;
+}
+
+.close-btn {
+    background: var(--accent) !important;
+    width: 100%;
+    text-align: center;
+}
+
+/* Animation State */
+.shuffling .genre-title { opacity: 0.3; filter: blur(2px); }
+.shuffling .vibe-text { opacity: 0.3; }
+
+.footer-note {
+    margin-top: 40px;
+    color: #444;
+    font-size: 0.8rem;
+}
